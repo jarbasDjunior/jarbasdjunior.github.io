@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvimento de sistemas, automações, APIs, sites e integrações com WhatsApp para pequenas empresas. Soluções simples para organizar clientes, cobranças e processos.">
+    <title>Jarbas Junior Dev | Sistemas, Automações e Sites</title>
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a href="#inicio" class="brand" aria-label="Jarbas Junior Dev - Início">
+                <span class="brand-mark">JJ</span>
+                <span>Jarbas Junior Dev</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#servicos">Serviços</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#como-funciona">Como Funciona</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+                <button class="btn btn-small btn-whatsapp" type="button" data-whatsapp>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Falar no WhatsApp
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="inicio">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <p class="eyebrow">Sistemas, automações e sites para negócios locais</p>
+                    <h1>Transforme processos manuais da sua empresa em sistemas e automações simples</h1>
+                    <p class="hero-text">
+                        Crio sites, sistemas, APIs e automações para ajudar pequenas empresas a organizar clientes,
+                        cobranças, atendimentos e rotinas do dia a dia.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" type="button" data-whatsapp>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Quero automatizar minha empresa
+                        </button>
+                        <a class="btn btn-secondary" href="#servicos">
+                            <i class="fa-solid fa-arrow-down"></i>
+                            Ver soluções
+                        </a>
+                    </div>
+                    <div class="trust-list" aria-label="Principais focos">
+                        <span><i class="fa-solid fa-check"></i> Soluções práticas</span>
+                        <span><i class="fa-solid fa-check"></i> Entrega objetiva</span>
+                        <span><i class="fa-solid fa-check"></i> Fácil de usar</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="system-card">
+                        <div class="system-card-header">
+                            <div>
+                                <span class="status-dot"></span>
+                                Painel da empresa
+                            </div>
+                            <span class="system-badge">Online</span>
+                        </div>
+                        <div class="metric-grid">
+                            <article class="metric-card">
+                                <i class="fa-solid fa-users"></i>
+                                <strong>248</strong>
+                                <span>Clientes cadastrados</span>
+                            </article>
+                            <article class="metric-card">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <strong>86</strong>
+                                <span>Cobranças enviadas</span>
+                            </article>
+                            <article class="metric-card">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <strong>12</strong>
+                                <span>Relatórios gerados</span>
+                            </article>
+                            <article class="metric-card">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <strong>n8n</strong>
+                                <span>Integração ativa</span>
+                            </article>
+                        </div>
+                        <div class="activity-list">
+                            <div><span></span> Cobrança automática enviada para cliente em atraso</div>
+                            <div><span></span> Novo atendimento registrado no painel</div>
+                            <div><span></span> Relatório financeiro pronto para consulta</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section problem-section" id="problemas">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Problemas comuns</p>
+                    <h2>Sua empresa ainda perde tempo com tarefas repetitivas?</h2>
+                    <p>Quando a rotina depende só de planilhas, mensagens soltas e controles manuais, fica fácil esquecer cobranças, perder dados e gastar tempo com retrabalho.</p>
+                </div>
+                <div class="card-grid six-grid">
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h3>Cobranças feitas manualmente</h3>
+                        <p>Mensagens enviadas uma por uma consomem tempo e aumentam o risco de esquecimento.</p>
+                    </article>
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-table-cells"></i>
+                        <h3>Clientes espalhados em planilhas</h3>
+                        <p>Informações importantes ficam duplicadas, desatualizadas ou difíceis de encontrar.</p>
+                    </article>
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <h3>Falta de controle de devedores</h3>
+                        <p>Sem um painel claro, a empresa perde visibilidade sobre valores, vencimentos e retornos.</p>
+                    </article>
+                    <article class="info-card reveal">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h3>Atendimento desorganizado no WhatsApp</h3>
+                        <p>Conversas importantes se misturam e dificultam acompanhar cada cliente.</p>
+                    </article>
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <h3>Relatórios difíceis de montar</h3>
+                        <p>Dados existem, mas exigem esforço manual para virar uma visão útil do negócio.</p>
+                    </article>
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-rotate"></i>
+                        <h3>Retrabalho em tarefas simples</h3>
+                        <p>Processos repetidos todos os dias podem ser organizados em fluxos mais rápidos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="servicos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Serviços</p>
+                    <h2>Soluções que posso criar para o seu negócio</h2>
+                    <p>Desenvolvo ferramentas simples, sob medida e fáceis de usar para resolver gargalos reais da operação.</p>
+                </div>
+                <div class="card-grid four-grid">
+                    <article class="service-card reveal">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h3>Automação de cobrança pelo WhatsApp</h3>
+                        <p>Envio organizado de lembretes, mensagens de vencimento e acompanhamentos para clientes.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-address-book"></i>
+                        <h3>Sistema de cadastro de clientes</h3>
+                        <p>Centralize dados, histórico, contatos e informações importantes em uma tela simples.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <h3>Painel de devedores e cobranças</h3>
+                        <p>Acompanhe quem deve, quanto deve, datas de vencimento e status das cobranças.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>APIs em Python + MySQL</h3>
+                        <p>Crio conexões para sistemas, aplicativos e bancos de dados trocarem informações.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <h3>Integração com n8n</h3>
+                        <p>Automatize etapas como mensagens, registros, avisos internos e atualização de dados.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Site institucional ou landing page</h3>
+                        <p>Apresente sua empresa de forma profissional e transforme visitantes em contatos.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h3>Relatórios e dashboards simples</h3>
+                        <p>Veja números importantes sem depender de planilhas complicadas.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <i class="fa-solid fa-gears"></i>
+                        <h3>Processos manuais em sistema</h3>
+                        <p>Transformo controles repetitivos em telas, filtros e fluxos práticos para sua equipe.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section benefits-section" id="beneficios">
+            <div class="container split-layout">
+                <div class="section-heading align-left reveal">
+                    <p class="eyebrow">Benefícios</p>
+                    <h2>O que sua empresa ganha com isso</h2>
+                    <p>O objetivo não é complicar sua rotina com tecnologia. É deixar o trabalho mais organizado, previsível e fácil de acompanhar.</p>
+                    <button class="btn btn-primary" type="button" data-whatsapp>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Conversar sobre minha rotina
+                    </button>
+                </div>
+                <div class="benefit-list reveal">
+                    <div><i class="fa-solid fa-clock"></i> Menos trabalho manual</div>
+                    <div><i class="fa-solid fa-folder-tree"></i> Mais organização</div>
+                    <div><i class="fa-solid fa-wallet"></i> Mais controle financeiro</div>
+                    <div><i class="fa-solid fa-bolt"></i> Atendimento mais rápido</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Processos mais profissionais</div>
+                    <div><i class="fa-solid fa-hourglass-half"></i> Economia de tempo</div>
+                    <div><i class="fa-solid fa-bell"></i> Menos esquecimento de cobranças</div>
+                    <div><i class="fa-solid fa-eye"></i> Melhor visão do negócio</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="como-funciona">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Processo</p>
+                    <h2>Como funciona</h2>
+                    <p>Um caminho direto para sair da ideia e chegar em uma solução funcionando.</p>
+                </div>
+                <div class="steps">
+                    <article class="step-card reveal">
+                        <span>1</span>
+                        <h3>Entendo seu problema</h3>
+                        <p>Você me conta qual tarefa está tomando tempo, gerando erro ou dificultando o atendimento.</p>
+                    </article>
+                    <article class="step-card reveal">
+                        <span>2</span>
+                        <h3>Desenho uma solução simples</h3>
+                        <p>Transformo a necessidade em telas, fluxos e automações que fazem sentido para sua rotina.</p>
+                    </article>
+                    <article class="step-card reveal">
+                        <span>3</span>
+                        <h3>Desenvolvo e testo</h3>
+                        <p>Crio a solução, valido os principais cenários e ajusto para ficar prática de usar.</p>
+                    </article>
+                    <article class="step-card reveal">
+                        <span>4</span>
+                        <h3>Entrego, ajusto e explico como usar</h3>
+                        <p>Você recebe a solução com orientação clara para aplicar no dia a dia da empresa.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projetos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Exemplos</p>
+                    <h2>Exemplos do que posso desenvolver</h2>
+                    <p>Ideias de soluções personalizadas para empresas que precisam organizar processos e ganhar velocidade.</p>
+                </div>
+                <div class="project-list">
+                    <article class="project-card reveal">
+                        <h3>Sistema para consulta de devedores</h3>
+                        <p>Exemplo de solução para localizar clientes em atraso, filtrar por status e acompanhar retornos.</p>
+                    </article>
+                    <article class="project-card reveal">
+                        <h3>Automação que envia cobranças para o n8n</h3>
+                        <p>Posso desenvolver fluxos que disparam mensagens e registram etapas automaticamente.</p>
+                    </article>
+                    <article class="project-card reveal">
+                        <h3>Site para empresa local</h3>
+                        <p>Ideal para negócios que precisam apresentar serviços, localização e contato de forma profissional.</p>
+                    </article>
+                    <article class="project-card reveal">
+                        <h3>Painel administrativo com clientes e relatórios</h3>
+                        <p>Solução personalizada para consultar cadastros, acompanhar números e tomar decisões rápidas.</p>
+                    </article>
+                    <article class="project-card reveal">
+                        <h3>API para aplicativo consultar dados no banco</h3>
+                        <p>Posso criar uma ponte segura entre banco de dados, sistemas internos e aplicativos.</p>
+                    </article>
+                    <article class="project-card reveal">
+                        <h3>Landing page profissional para captação de clientes</h3>
+                        <p>Ideal para empresas que querem divulgar uma oferta e receber contatos pelo WhatsApp.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <p class="eyebrow">Vamos simplificar sua operação?</p>
+                    <h2>Vamos transformar uma tarefa repetitiva da sua empresa em uma solução simples?</h2>
+                    <p>
+                        Me chame no WhatsApp e me conte qual processo da sua empresa está tomando tempo demais.
+                        Eu posso te ajudar a pensar em uma solução prática.
+                    </p>
+                    <button class="btn btn-primary btn-large" type="button" data-whatsapp>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Chamar no WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contato">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Contato</p>
+                    <h2>Fale comigo</h2>
+                    <p>Conte o que você quer organizar, automatizar ou melhorar na sua empresa.</p>
+                </div>
+                <div class="contact-grid">
+                    <article class="contact-card reveal">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <p>62 98167-4423</p>
+                        <button class="btn btn-secondary" type="button" data-whatsapp>Enviar mensagem</button>
+                    </article>
+                    <article class="contact-card reveal">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>E-mail</h3>
+                        <p>jarbasdjunior@hotmail.com</p>
+                        <a class="btn btn-secondary" href="mailto:jarbasdjunior@hotmail.com">Enviar e-mail</a>
+                    </article>
+                    <article class="contact-card reveal">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>github.com/jarbasDjunior</p>
+                        <a class="btn btn-secondary" href="https://github.com/jarbasDjunior" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#inicio" class="brand footer-brand">
+                    <span class="brand-mark">JJ</span>
+                    <span>Jarbas Junior Dev</span>
+                </a>
+                <p>Desenvolvimento de sistemas, automações, APIs e sites para pequenos negócios.</p>
+            </div>
+            <div>
+                <h3>Links rápidos</h3>
+                <a href="#servicos">Serviços</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#como-funciona">Como Funciona</a>
+                <a href="#projetos">Projetos</a>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <button type="button" data-whatsapp><i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
+                <a href="mailto:jarbasdjunior@hotmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+                <a href="https://github.com/jarbasDjunior" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Jarbas Junior Dev. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
